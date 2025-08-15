@@ -1,0 +1,13 @@
+{
+    "name": "css-debug-favelet-rtl",
+    "version": "1.0.0",
+    "description": "A small tool for quick web page debugging using CSS and a Favelet (Bookmarklet).",
+    "main": "index.js",
+    "dependencies": {
+        "minifier": "^0.8.1"
+    },
+    "devDependencies": {},
+    "scripts": {
+        "minify": "minify css/style.css -o css/style.min.css"
+    }
+}

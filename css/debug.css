@@ -1,0 +1,41 @@
+* {
+    outline: 1px dashed rgba(255, 0, 0, 0.3);
+}
+
+table {
+    border: 2px solid red !important;
+}
+
+td,
+th {
+    border: 1px dashed purple !important;
+    padding: 4px;
+}
+
+*[style] {
+    border: 2px dotted orange !important;
+    background-color: rgba(255, 165, 0, 0.1) !important;
+}
+
+img:not([alt]) {
+    border: 3px solid red !important;
+    background-color: rgba(0, 255, 0, 0.2) !important;
+}
+
+font {
+    background-color: rgba(255, 255, 0, 0.5) !important;
+    border: 2px solid gold !important;
+}
+
+a:empty {
+    outline: 3px solid blue !important;
+    background-color: rgba(0, 0, 255, 0.1) !important;
+}
+
+[dir="rtl"] {
+    background-color: rgba(0, 128, 255, 0.05) !important;
+}
+
+[dir="ltr"] {
+    background-color: rgba(255, 0, 128, 0.05) !important;
+}
